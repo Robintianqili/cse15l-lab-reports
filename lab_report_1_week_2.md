@@ -5,20 +5,7 @@
 
 # Lab Report(week 1 and 2, writing tutorial for the future students)
 
-## Find you CSE 15L accounts
-*important reminder*: please check the unique strings, which is behind the "cs15lsp22"
 
-**You could find your account through UCSD website**
-
-Links below:
-[UCSD Account find](https://sdacs.ucsd.edu/~icc/index.php)
-
-After you find your username, try to change your password first, by using "Global password tool". If you don't want to change your **Tritionlink password** as well, please erase the option for **change your UCSD Account**. 
-
-![image](catch.PNG)
-
-If you see the website showing that you need to change to another new password, don't be worry, click the *confirm your password* line, and click "Enter" in your keyboard. You should find your password is changed.
-![image](catchq2.PNG)
 
 **Please wait for a few minutes to make sure that the system  updates this change**
 
