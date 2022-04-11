@@ -11,24 +11,25 @@
 **You could find your account through UCSD website**
 
 Links below:
-[UCSD Account find](insert the website)
+[UCSD Account find](https://sdacs.ucsd.edu/~icc/index.php)
 
 After you find your username, try to change your password first, by using "Global password tool". If you don't want to change your **Tritionlink password** as well, please erase the option for **change your UCSD Account**. 
 
-![image](insert the image)
+![image](catch.PNG)
 
 If you see the website showing that you need to change to another new password, don't be worry, click the *confirm your password* line, and click "Enter" in your keyboard. You should find your password is changed.
+![image](catchq2.PNG)
 
 **Please wait for a few minutes to make sure that the system  updates this change**
 
 ## Download and Launch the VS Code
 we use VS Code as CSE15L's IDE. You can download this through the link below or just simply google it!
 
-[Download the VS Code](insert the link)
+[Download the VS Code](https://code.visualstudio.com/)
 
-if you can see the window below, it means that you install it well! 
+if you can successfully lauch the app and see the window below, it means that you install it well! 
 
-![image](insert the image)
+![image](VS.PNG)
 
 ## Remotely Connecting
 OK, this is time when you should implement your username and password here
@@ -41,12 +42,17 @@ Open a terminal in VSCode (Ctrl + `, or use the Terminal → New Terminal menu o
 
 `ssh cs15lsp22<>@ieng6.ucsd.edu`
 
+
 if it's your first time to log in your Account, you might say this message below.
 
 `The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.`
 `RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.`
 
 `Are you sure you want to continue connecting (yes/no/[fingerprint])?`
+
+
+![image](catch3.PNG)
+
 
 Please write "yes " in the terminal window. It will be fine.
 
@@ -81,27 +87,33 @@ If you input something wrong or just want to shuttle the connection down, **You 
 
 You could find some result pictures below.
 
-![image]()
+ls-a command:
 
-![image]()
+![image](unnamed%20(1).png)
 
-![image]()
+ls-lat command:
+![image](unnamed%20(2).png)
+
+cd command:
+![image](unnamed.png)
 
 # Good job! Now let's try how to transfer our local file to the remote server
 
 * First , let us establish a new file in our local file. We assumed that you established the JAVA environment in VS Code, you can create a new java file and give some commands there, Everything are ok!
 
-![image]()
+![image](example.PNG)
 
 * Second, first run this in our local computer to make sure that our files can successfully compile and run.
 
-![image]()
+![image](res.PNG)
 
 * Finally, use the command in the next line 
 
 `scp Yourname.java cs15lsp22<>@ieng6.ucsd.edu:~/`
 
 It will require you input your password and once you did it, **You should log in your username and if you use 'ls' command, you will see that the file is successfully uploaded.**
+
+![image](named%20(3).png)
 
 ## The difference between local run and server run.
 Please creae a java file with following content below:
@@ -119,7 +131,7 @@ Please creae a java file with following content below:
 
 **Run it both in the local computer and the server, you will the differences**
 
-![image]()
+![image](unnamed%20(3).png)
 
 The reason for the different output is that the properties of local computer and server are quite different.
 
@@ -178,13 +190,21 @@ The key's randomart image is:
 
 **After that if you want to log in or upload files, you can write your passpharse and save Lots of time!**
 
+![image](unnamed%20(7).png)
+
 # Using SSH key, fasten your speed.
 
 You can write a command in quotes at the end of an ssh command to directly run it on the remote server, then exit. For example, this command will log in and list the home directory on the remote server:
+
 $ ssh cs15lsp22zz@ieng6.ucsd.edu "ls"
-You can use semicolons to run multiple commands on the same line in most terminals. For example, try:
+
+![image](unnamed%20(6).png)
+
+You can use semicolons to connect mutltiple commands, try the following codes, which could upload, compile and run one java file on the server.
+
 $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
-You can use the up-arrow on your keyboard to recall the last command that was run
+
+
 
 
 
