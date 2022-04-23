@@ -1,8 +1,11 @@
 # Bad examples and Symtoms shown by extra examples
 
 The original code and example lists below:
+
 Code:
+
 ![image](cap.PNG)
+
 Example:
 
 `# Title`
