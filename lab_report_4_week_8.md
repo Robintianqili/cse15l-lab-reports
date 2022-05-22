@@ -40,3 +40,23 @@ It should have  https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/c
 ![image](45.PNG)
 ![image](46.PNG)
 ![image](47.PNG)
+
+**Here are the another group's implementation results**
+
+![image](48.PNG)
+![image](50.PNG)
+![image](51.PNG)
+
+# Code description for each failure
+
+Q1: 
+
+For Snippet 1, my result includes url.com. The reason is that my Code cannot check **"``"**. Thus, I think I could add a small change to achieve this. First of all, find all inline Code  bounded by backticks. then use replace method to delete all the inline Code. After that we run the process to check website.
+
+Q2:
+
+For Snippet 2, a.com(()) does not come out. The reason here is that my Code just find the closest closeParen. I think I need a more involved change. I think I will use stack to find the correct close paren. For example, starting from "(" and use an integer set as 0, if the program meets another "(", add one to the integer. if the program meets another ")", minus one to the integer. When this integer<0, it means we find the matched CloseParen.
+
+Q3:
+
+For Snippet 3, my code did not output anything. It means that The Code cannot figure out the new lines in brackets and Parentheses. I believe there is a easy way to implement this. At the beginning of the process, we can add new lines like replace("/n", "/r"), delete all the line breaks. Then we perform the process as usual. 
