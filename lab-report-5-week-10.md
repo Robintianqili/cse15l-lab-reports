@@ -2,7 +2,7 @@
 
 in the lab 9, I comapred two results files from TA's markdownParse file and my own markdownParse file. 
 
-[Test-files that generates different answer](test-files-wrong)
+[Test-files that generate different answer](test-files-wrong)
 
 [My result files](myresults.txt)
 [TA's result files](TAresults.txt)
